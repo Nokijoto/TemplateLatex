@@ -1,0 +1,114 @@
+\documentclass[12pt]{article}
+%\usepackage[letterspace=0]{tgtermes}
+% Times New Roman
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{listings}
+\lstset{columns=fullflexible,showstringspaces=false}
+% Odstęp między wierszami
+\usepackage{setspace}
+\singlespacing
+\linespread{1}
+
+\usepackage{svg}
+
+% Prefixy rysunków i tabel
+\usepackage{caption}
+\captionsetup[table]{name=Tab.}
+\captionsetup[figure]{name=Rys.}
+
+% Własny rozmiar czcionki
+\usepackage{anyfontsize}
+\newcommand{\fs}[1]{\fontsize{#1}{#1}\selectfont}
+
+% Inne ustawienia
+
+% Własne komendy
+\newcommand{\listsinglespacing}{\setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}\setlength{\parsep}{0pt}}
+
+\usepackage{xcolor,listings}
+
+\usepackage[nosingleletter]{impnattypo}
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+\usepackage[polish]{babel}
+\usepackage[linewidth=1pt]{mdframed}
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=2cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+
+
+
+\begin{document}
+\include{TitlePage.tex}
+\newpage
+
+% Zadnie 1 
+%\include{Projekt/Zadanie1/Dane.tex}
+%%\include{Projekt/Zadanie1/Raporty.tex}
+%\include{Projekt/Zadanie1/Zestawienia.tex}
+\include{Projekt/Zadanie1/Zadanie1.tex}
+\newpage
+
+% Zadnie 2
+\include{Projekt/Zadanie2/Diagram.tex}
+\newpage
+\include{Projekt/Zadanie2/Adresy.tex}
+\newpage
+\include{Projekt/Zadanie2/Badania.tex}
+\newpage
+\include{Projekt/Zadanie2/Faktury.tex}
+\newpage
+\include{Projekt/Zadanie2/Karetki.tex}
+\newpage
+\include{Projekt/Zadanie2/lekarstwa_faktury.tex}
+\newpage
+\include{Projekt/Zadanie2/lekarstwa_pobyt.tex}
+\newpage
+\include{Projekt/Zadanie2/lekarstwa_recepty.tex}
+\newpage
+\include{Projekt/Zadanie2/lekarstwa_recepty.tex}
+\newpage
+\include{Projekt/Zadanie2/lekarstwa_wyjazdy.tex}
+\newpage
+\include{Projekt/Zadanie2/Lekarstwa.tex}
+\newpage
+\include{Projekt/Zadanie2/Pacejnt.tex}
+\newpage
+\include{Projekt/Zadanie2/Pobyt.tex}
+\newpage
+\include{Projekt/Zadanie2/Pracownicy_specjalizacje.tex}
+\newpage
+\include{Projekt/Zadanie2/Pracownicy.tex}
+\newpage
+\include{Projekt/Zadanie2/Recepty.tex}
+\newpage
+\include{Projekt/Zadanie2/Specjalizacje.tex}
+\newpage
+\include{Projekt/Zadanie2/Stanowisko.tex}
+\newpage
+\include{Projekt/Zadanie2/Wizyty.tex}
+\newpage
+\include{Projekt/Zadanie2/Wyjazdy.tex}
+\newpage
+\include{Projekt/Zadanie2/Wyniki.tex}
+\newpage
+\include{Projekt/Zadanie2/Zabieg.tex}
+% Zadanie 3
+
+\include{Projekt/Zadanie3/Jedna.tex}
+\include{Projekt/Zadanie3/Join.tex}
+\include{Projekt/Zadanie3/JOINY.tex}
+
+\include{Projekt/Zadanie3/Select.tex}
+\include{Projekt/Zadanie3/From.tex}
+\include{Projekt/Zadanie3/Where.tex}
+\end{document}
